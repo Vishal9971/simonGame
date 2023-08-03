@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  padding-top: 60px;
+  margin: auto;
+  background: linear-gradient(black, grey);
+  /* background: red; */
+  height: 100vh;
+  width: 100vw;
+}
+.heading {
+  font-size: 46px;
+  color: white;
+}
+.start {
+  padding: 50px;
+  color: white;
+}
+.content {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+.same {
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.wrong {
+  color: red;
+  font-size: 48px;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.gameOver {
+  box-shadow: 0 0 20px;
+  background: red;
+}
